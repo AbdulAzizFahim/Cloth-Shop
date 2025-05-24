@@ -40,7 +40,7 @@ export default function Product({ productData }) {
         <p className="font-bold">${price} </p>
         {quantity !== totalQuantity && (
           <button
-            className="w-full mt-2 bg-red-800 py-1 text-gray-100 rounded flex items-center justify-center"
+            className="w-full mt-2 bg-red-800 py-1 text-gray-100 rounded flex items-center justify-center hover: cursor-pointer"
             onClick={handleRemoveFromCart}
           >
             Remove from Cart
@@ -49,7 +49,7 @@ export default function Product({ productData }) {
 
         {quantity == totalQuantity && (
           <button
-            className="disabled:bg-gray-700 disabled:text-gray-400 disabled:cursor-not-allowed w-full mt-2 bg-gray-800 py-1 text-gray-100 rounded flex items-center justify-center active:translate-y-1 transition-all active:bg-gray-900"
+            className="disabled:bg-gray-700 disabled:text-gray-400 disabled:cursor-not-allowed w-full mt-2 bg-gray-800 py-1 text-gray-100 rounded flex items-center justify-center active:translate-y-1 transition-all active:bg-gray-900 hover: cursor-pointer"
             onClick={handleAddToCart}
           >
             Add to Cart

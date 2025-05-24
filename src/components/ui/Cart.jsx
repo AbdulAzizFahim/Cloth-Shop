@@ -20,7 +20,7 @@ export default function Cart({ cart }) {
     <div className="flex-grow">
       <div className="flex justify-between">
         <h3 className="font-medium">{name}</h3>
-        <span className="text-red-500 text-sm" onClick={handleRemoveFromCart}>
+        <span className="text-red-500 text-sm hover:cursor-pointer" onClick={handleRemoveFromCart}>
           ×
         </span>
       </div>
@@ -30,14 +30,14 @@ export default function Cart({ cart }) {
         <p className="font-bold">{price}</p>
         <div className="flex items-center space-x-2">
           <button
-            className="w-6 h-6 bg-gray-100 rounded flex items-center justify-center"
+            className="w-6 h-6 bg-gray-100 rounded flex items-center justify-center hover: cursor-pointer"
             onClick={handleRemoveSingleItemInCart}
           >
             −
           </button>
           <span className="text-sm">{quantity}</span>
           <button
-            className="w-6 h-6 bg-gray-100 rounded flex items-center justify-center"
+            className="w-6 h-6 bg-gray-100 rounded flex items-center justify-center hover: cursor-pointer"
             onClick={handleAddSingleItemInCart}
           >
             +

@@ -12,7 +12,7 @@ export default function Promotion() {
           {promotionData.actionMsg}
         </a>
       </p>
-      <button className="absolute right-4 top-2 text-white">×</button>
+      <button className="absolute right-4 top-2 text-white hover: cursor-pointer">×</button>
     </div>
   );
 }

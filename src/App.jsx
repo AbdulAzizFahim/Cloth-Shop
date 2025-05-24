@@ -12,13 +12,14 @@ export default function App() {
   const [state, dispatch] = useImmerReducer(CartReducer, {
     products: [...productData],
     carts: [],
+    searchText: "",
   });
 
   return (
     <>
       <Promotion />
-      <Header />
       <CartContext.Provider value={[state, dispatch]}>
+        <Header />
         <MainContent />
       </CartContext.Provider>
       <Newsletter />

@@ -51,6 +51,11 @@ export function CartReducer(state, action) {
       break;
     }
 
+    case "Searchbar": {
+      state.searchText = action.payload;
+      break;
+    }
+
     default:
       return new Error("Error in carts Reducer");
   }

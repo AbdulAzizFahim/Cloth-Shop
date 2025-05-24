@@ -40,13 +40,13 @@ export default function OrderSummary() {
           <input
             type="text"
             placeholder="Add promo code"
-            className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm"
+            className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm placeholder:pl-2"
           />
-          <span className="absolute left-3 top-2.5">
+          <span className="absolute left-1 top-2.5">
             <PriceSvg />
           </span>
         </div>
-        <button className="bg-black text-white rounded-md px-4 py-2 text-sm">
+        <button className="bg-black text-white rounded-md px-4 py-2 text-sm hover: cursor-pointer">
           Apply
         </button>
       </div>
