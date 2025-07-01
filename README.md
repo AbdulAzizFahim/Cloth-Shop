@@ -2,7 +2,7 @@
 
 🌟 A **simple front-end web app** to visualize a clothing shop.
 
-🔗 **Live Demo:** [cloth-shop-psi.vercel.app](https://cloth-shop-psi.vercel.app/)
+🔗 **Live Demo:** [View Site](https://cloth-shop-psi.vercel.app/)
 
 ---
 
@@ -20,7 +20,7 @@ Follow these steps to run the project locally:
 ### 📂 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/cloth-shop.git
+clone the project
 cd cloth-shop
 npm install
 npm run dev
